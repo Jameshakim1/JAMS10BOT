@@ -2005,7 +2005,7 @@ def bot(op):
                     else:
                         jams.sendText(msg.to,"Off ✖")
             elif msg.text.lower() == 'set':
-                md = "╔▬▬℘ґ∂ηк в❍тs▬▬╗\n║▬▬▬℘▬▬в▬▬▬║\n"
+                md = "╔▬▬Ｊ丹爪ち 丅モ丹爪 ▬▬╗\n║▬▬▬Ｊ▬▬丅▬▬▬║\n"
                 if wait["likeOn"] == True: md+="║☆║Like:ON➡️📱\n"
                 else: md+="║☆║Like:OFF➡️📴\n"
                 if wait["wcOn"] == True: md+="║☆║Welcome:ON➡️📱\n"
@@ -2048,7 +2048,7 @@ def bot(op):
                 else:md+="║☆║Procancel:OFF➡️📴\n"
                 if wait["pname"] == True: md+="║☆║Namelock:ON➡️📱\n"
                 else: md+="║☆║Namelock:OFF➡️📴\n"   
-                jams.sendText(msg.to,md + "║▬▬▬℘▬▬в▬▬▬║\n╚▬▬℘ґ∂ηк в❍тs▬▬╝")
+                jams.sendText(msg.to,md + "║▬▬▬Ｊ▬▬丅▬▬▬║\n╚▬▬Ｊ丹爪ち 丅モ丹爪 ▬▬╝")
             elif "Creatorgrup" == msg.text:
                 try:
                     group = jams.getGroup(msg.to)
@@ -2070,11 +2070,11 @@ def bot(op):
                     jams.sendText(msg.to,"old user")
             elif cms(msg.text,["Add"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'u5818cb4404411c2e2e6e6937d172cca8'}
+                msg.contentMetadata = {'mid': 'u6f79ee22ebb6bab06aa967003733c9d4'}
                 jams.sendText(msg.to,"❂•••••••••✧••••••••••❂")
                 jams.sendMessage(msg)
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'udfaf52176415b46cb445ae2757ec85f3'}
+                msg.contentMetadata = {'mid': 'u6f79ee22ebb6bab06aa967003733c9d4'}
                 jams.sendMessage(msg)
                 jams.sendText(msg.to,"❂••••••••✰•✰••••••••❂")
             elif "Tagme: " in msg.text:
