@@ -4730,12 +4730,12 @@ thread2.daemon = True
 thread2.start()
 while True:
     try:
-        Ops = acil.fetchOps(acil.Poll.rev, 5)
+        Ops = jams.fetchOps(jams.Poll.rev, 5)
     except EOFError:
-        raise Exception("It might be wrong revision\n" + str(acil.Poll.rev))
+        raise Exception("It might be wrong revision\n" + str(jams.Poll.rev))
 
     for Op in Ops:
         if (Op.type != OpType.END_OF_OPERATION):
-            acil.Poll.rev = max(acil.Poll.rev, Op.revision)
+            jams.Poll.rev = max(jams.Poll.rev, Op.revision)
             bot(Op)
 
