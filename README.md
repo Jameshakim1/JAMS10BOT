@@ -1,3 +1,7 @@
+丅モ丹爪 Ｊ丹爪ち 
 
-TEAM JAMS
+
+
+
+
 http://line.me/ti/p/~jameshakim
